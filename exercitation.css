@@ -103,3 +103,16 @@
 
     transform: scale(1.5);
  }
+
+
+
+
+ .ex-10-icon{
+     animation: loading 2s infinite linear;
+ }
+
+ @keyframes loading {
+     100%{
+         transform: rotate(360deg);
+     }
+ }
