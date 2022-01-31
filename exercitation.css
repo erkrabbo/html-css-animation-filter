@@ -129,3 +129,26 @@
         transform: rotate(calc(360deg * .75))
     }
 }
+
+
+
+
+.ex-12-button:hover .ex-12-top-white{
+    animation: borderTopAnim linear 2s;  
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: borderBotAnim linear 2s;
+}
+
+@keyframes borderTopAnim {
+    50%{
+        left: calc(100% - 60px);
+    }
+}
+
+@keyframes borderBotAnim {
+    50%{
+        right:calc(100% - 60px)
+    }
+}
