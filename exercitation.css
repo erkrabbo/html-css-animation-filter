@@ -116,3 +116,16 @@
          transform: rotate(360deg);
      }
  }
+
+
+
+
+ .ex-11-icon:hover{
+    animation: loading75 2s infinite linear;
+ }
+
+ @keyframes loading75 {
+    75%{
+        transform: rotate(calc(360deg * .75))
+    }
+}
