@@ -64,3 +64,42 @@
 .ex-6-img:hover{
     filter: grayscale();
 }
+
+
+
+
+.ex-7-img{
+    transition: filter 2s;
+}
+ .ex-7-img:hover{
+     filter: grayscale();
+     filter: sepia(.5);
+ }
+
+
+
+
+ .ex-8-img{
+    transition: all 2s;
+}
+ .ex-8-img:hover{
+     filter: grayscale();
+     filter: sepia(.5);
+
+    border-radius: 30px;
+ }
+
+
+
+
+ .ex-9-img{
+    transition: all 2s;
+}
+ .ex-9-img:hover{
+     filter: grayscale();
+     filter: sepia(.5);
+
+    border-radius: 30px;
+
+    transform: scale(1.5);
+ }
